@@ -16,10 +16,3 @@ Nesse exemplo o servidor recebe mais de um cliente. Se o cliente enviar uma mens
 Se um cliente cair o servidor recebe a mensagem de Cliente Desconectou, mas o outro continua conectado 
 Se o outro clinte sair (ou todos que estiverem conectados sairem) o servidor não cai, e outro cliente pode entrar normalmente
 
-- Codigo servidor_eco.py / cliente_eco.py x servidor_eco_udp.py x cliente_eco_udp.py:
-TESTE DE TCP X UDP  
-
-Nesse teste o codigo original (eco.py) está configurado em TCP, então foi feito um novo codigo em UDP (eco_udp.py) para teste de muitos caracteres na mensagem de um cliente
-O servidor conseguiu receber uma mensagem de 5000 caracteres e retornou
-
-.....
